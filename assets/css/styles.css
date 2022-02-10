@@ -40,6 +40,17 @@
   --z-fixed: 100;
 }
 
+@media screen and (max-width: 469px){
+  :root{
+    --biggest-font-size: 20px;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 14px;
+    --small-font-size: .875rem;
+  }
+}
+
+
 @media screen and (min-width: 968px){
   :root{
     --biggest-font-size: 3rem;
@@ -70,7 +81,7 @@ body.dark-theme{
 }
 
 /*========== Button Dark/Light ==========*/
-.change-theme{
+/* .change-theme{
   position: absolute;
   right: 1.5rem;
   top: 2.2rem;
@@ -78,7 +89,7 @@ body.dark-theme{
   color: var(--title-color);
   font-size: 2rem;
   cursor: pointer;
-}
+} */
 
 body{
   margin: var(--header-height) 0 0 0;
@@ -321,7 +332,7 @@ img{
 
 .border__button{
   background-color: transparent;
-  border: solid black;
+  /* border: solid black; */
   color: black;
 }
 
@@ -541,10 +552,10 @@ img{
     display: none;
   }
 
-  .change-theme{
+  /* .change-theme{
     position: initial;
     margin-left: var(--mb-4);
-  }
+  } */
 
   .home__container{
     padding: 2rem 0rem 2rem;
