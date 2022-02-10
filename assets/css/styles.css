@@ -434,6 +434,11 @@ img{
   justify-self: center;
 }
 
+iframe{
+  width: 90%; 
+  height: 380px;
+}
+
 /*========== FOOTER ==========*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -520,6 +525,11 @@ img{
     width: 100%;
   }
   
+  iframe{
+    width: 85%; 
+    height: 420px;
+  }
+
   .share__img{
     order: -1;
   }
@@ -591,6 +601,12 @@ img{
     background: none;
   }
 
+  iframe{
+    width: 90%; 
+    height: 450px;
+  }
+
+
   .send__container{
     background-color: var(--first-color-send);
     padding: 2rem;
@@ -611,6 +627,11 @@ img{
   }
   .phone__container{
     padding: 3rem 0 2rem;
+  }
+
+  iframe{
+    width: 90%; 
+    height: 524px;
   }
 
   .home__container,
