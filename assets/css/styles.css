@@ -196,6 +196,9 @@ img{
 
 /* 768px */
 @media screen and (max-width: 768px){
+
+
+
   .nav__menu{
     position: fixed;
     top: -100%;
@@ -215,6 +218,9 @@ img{
 
 .nav__item{
   margin-bottom: var(--mb-3);
+}
+.nav__logo{
+  font-size: 24px;
 }
 
 .nav__link, .nav__logo, .nav__toggle{
@@ -492,11 +498,24 @@ iframe{
   .send__img{
     width: 100%;
   }
+
+  .nav__logo{
+    font-size: 16px;
+  }
+  .beta{
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
     #color_text{
       text-align: center; 
+    }
+    .nav__logo{
+      font-size: 16px;
+    }
+    .beta{
+      font-size: 10px;
     }
 }
 
@@ -506,6 +525,13 @@ iframe{
   .send__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+  }
+
+  .nav__logo{
+    font-size: 20px;
+  }
+  .beta{
+    font-size: 12px;
   }
 
   .home__container{
@@ -549,6 +575,14 @@ iframe{
   /* .section{
     padding-top: 7rem;
   } */
+
+  .nav__logo{
+    font-size: 24px;
+  }
+  .beta{
+    font-size: 14px;
+  }
+
 
   .nav{
     height: calc(var(--header-height) + 1.5rem);
@@ -624,6 +658,14 @@ iframe{
   .bd-container{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  
+  .nav__logo{
+    font-size: 28px;
+  }
+  .beta{
+    font-size: 14px;
   }
 
   .home__img,
