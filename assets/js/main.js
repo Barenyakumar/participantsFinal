@@ -129,9 +129,9 @@ const sr = ScrollReveal({
 });
 
 
-sr.reveal(`.home__data, .home__img, .transition__home__img,.home__data_3,.home__img_3,
-            .home__data_2,.home__img_2, .share__img_1,.share__data_1, .home__data_1,
-            .home__img_1,
+sr.reveal(`.home__data, .home__img, .transition__home__img,.home__data_3,.home__img_3, .paragraph,
+            .home__data_2,.home__img_2, .share__img_1,.share__data_1, .home__data_1, .decoration__container,
+            .home__img_1, .questions__group,
             .share__img, .send__content, .send__direction,.share__data_1,
             .share__data, .send__img`, {
     origin: 'top',
