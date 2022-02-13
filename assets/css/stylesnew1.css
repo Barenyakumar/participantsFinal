@@ -43,6 +43,7 @@
 @media screen and (max-width: 469px){
   :root{
     --biggest-font-size: 20px;
+    --paragraph-font-size: 20px;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 14px;
@@ -54,6 +55,7 @@
 @media screen and (min-width: 968px){
   :root{
     --biggest-font-size: 3rem;
+    --paragraph-font-size: 32px;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
@@ -259,6 +261,14 @@ img{
   background-color: var(--title-color);
   border-radius: 50%;
 }
+
+/* Paragraphs */
+.paragraph{
+  font-size: var(--paragraph-font-size);
+}
+
+
+
 
 /* Change background header */
 .scroll-header{
